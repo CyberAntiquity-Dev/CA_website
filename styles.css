@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+
+    color: #e8eaed;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    height: fit-content; /* Used to enable scrolling */
+    background-image: linear-gradient(180deg, rgb(62,62,62) 0%, rgb(36, 35, 35) 85%) !important;
+
+    transition: background-image 0.5s ease, background-color 0.5s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    /* color yellow: #f6d908 */
+}
+
+.navbar a{
+    color: #f6d908 !important;
+
+}
