@@ -28,6 +28,10 @@ body{
     /* color yellow: #f6d908 */
 }
 
+.h2{
+    transform: scale(1.0,1.0) !important;
+}
+
 .full-width-section{
     /* width: 100vw; */
     /* min-width: 100%; */
@@ -50,10 +54,20 @@ body{
 .navbar a, .nav-item a{
     color: #f6d908 !important;
     list-style: none !important;
+    transition: transform 0.3s  !important; 
+    /* transition: font-style 0.5s  !important;  */
 }
 
 .nav-item :hover{
-    font-style: italic;
+    /* font-style: italic; */
+    transform: scale(1.1,1.1) !important;
+}
+
+.hoverable{
+    transition: transform 0.3s  !important; 
+}
+.hoverable :hover{
+    transform: scale(1.1,1.1);
 }
 
 .linkCustom{
@@ -61,3 +75,7 @@ body{
     color: #cbb406 !important;
 }
 
+.carousel-inner img {
+    width: 50%;
+    height: 50%;
+  }

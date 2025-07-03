@@ -44,7 +44,7 @@
         <header class="mb-auto">
             <nav class="navbar navbar-expand-lg navbar-dark  sticky-top py-2 nav-masthead" role="navigation">
                 <a class="navbar-brand d-flex align-items-center" href="index.html"> <img src="Assets/CyberAntiquity_logo.jpg" width="80rem"> 
-                    <h2 class="mb-0">CyberAntiquity</h2> </a>
+                    <h2 class="mb-0 hoverable">CyberAntiquity</h2> </a>
 
                 <div class="container-fluid">
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -54,7 +54,7 @@
                     <div class="navbar-collapse collapse show justify-content-center" id="bs-example-navbar-collapse-1"
                     >
                         <ul class="nav navbar-nav ml-auto px-3">
-                            <li class="nav-item active"> <a class="nav-link" href="index.html" target="_self">Home</a> </li>
+                            <li class="nav-item active"> <a class="nav-link hoverable" href="index.html" target="_self">Home</a> </li>
                             <li class="nav-item"> <a class="nav-link" href="pages/Projects.html">Projects</a> </li>
                             <li class="nav-item"> <a class="nav-link" href="pages/Contact.html">About us</a> </li>
                         </ul>
@@ -64,33 +64,58 @@
             </nav>
         </header>
 
-        <!-- <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <ul class="nav nav-pills">
-                <li class="nav-item"> <a class="nav-link active" href="index.html">Home</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="pages/Projects.html">Projects</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="pages/Contact.html">About us</a> </li>
-            </ul>
-        </header> -->
 
         
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center" style="height: 100vh !important;">
-            <main class="px-3 text-white full-width-section"> <!-- style="height: 100vh; -->
+            <!-- main / hero section -->
+            <main class="px-3 text-white full-width-section">
                 <h1 class="py-3">Welcome to CyberAntiquity</h1>
-
                 
                 <h4 class="py-5">We're an indie game development team of students based in Cape Town, South Africa</h4>
 
+                <div id="demo" class="carousel-slide" data-ride="carousel" style="align-content: center;">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Assets/Games/GRSCP_cover.jpg" alt="Gerascophobia (Early Access)" class="img-responsive">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/Games/GRSCP_cover_old.jpg" alt="Gerascophobia (Game jam version)" class="img-responsive">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/Games/ELV-X_Corridor.PNG" alt="Project Elevator X" class="img-responsive">
+                        </div>
+                    </div>
+                    
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
 
                 <p class="lead">Currently working on : Mystery project </p>
             </main>
 
 
-            <!-- <footer class="mt-auto text-white-50 py-5">
-                <p> <strong>@CyberAntiquity</strong> | 2025 | 
-                    <a href="https://www.youtube.com/@cyberantiquity856" target="_blank" class="linkCustom">Youtube</a> |
-                    <a href="https://cyberantiquity.itch.io/" target="_blank" class="linkCustom"> Itch.io</a> 
-                </p>
-            </footer> -->
+            <!-- OUR GAMES -->
+            <section class="px-3 text-white full-width-sections ourGames">
+                <h2>Our Games:</h2>
+            </section>
+
+            <!-- ABOUT US -->
+
+            
         </div>
 
         <footer class="mt-auto text-white-50 py-2 text-center">
